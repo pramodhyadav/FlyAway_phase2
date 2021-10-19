@@ -11,16 +11,18 @@ Coming Up
 General info
 A small flight booking demo project in JAVA
 
-Using the application
-Home displays the application name (FlyAway) and two options - Book Flights and Admin Panel Acces
-
-
-Book Flights - 
-The user enters flight details (date, source, destination, travellers). A query is sent to the remote database to fetch related flights and displayed to user. The User enters other details and proceeds to book the flight. 
-
-Admin - 
-Admin dashboard is accessed with a preset username and password. Admin can see all entries in database table. Admin can change his password after Login
-Technologies
+In the beginning, Home displays the application name (FlyAway) and the options for the user 
+to choose to search and list the flights available and to login as a admin.
+Admin Login:-
+Admin dashboard is accessed with a pre-set username and password. Admin can see all 
+entries in database table. Admin can change his password after Login.
+Search for Flight:-
+The user enters flight details (date, source, destination, travellers). A query is sent to the 
+remote database to fetch related flights and displayed to user. The User enters other details 
+and proceeds to book the flight.
+List all Flights:-
+The available flights on the database of this application will be listed upon choosing this 
+option
 Frontend - JSP, HTML, CSS, Bootstrap 
 Backend - JAVA Servlets 
 Database - MySQL - Hosted on a remote server at AWS RDS 
